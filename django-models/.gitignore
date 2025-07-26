@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+*.pyc
+__pycache__/
+db.sqlite3
+.env
+/static/
+*.log
+=======
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.sqlite3
+*.log
+db.sqlite3
+.DS_Store
+*.egg-info/
+staticfiles/
+media/
+>>>>>>> 47b180a (Implement advanced model relationships in relationship_app)
