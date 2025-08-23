@@ -1,0 +1,11 @@
+### API Filtering, Searching, and Ordering
+
+- Filter books by exact `title`, `author__name`, or `publication_year` using query parameters.  
+  Example: `/api/books/?publication_year=1945`
+
+- Search books by partial matches on `title` or `author` using the `search` parameter.  
+  Example: `/api/books/?search=Orwell`
+
+- Order books by `title` or `publication_year` using the `ordering` parameter.  
+  Use `-` prefix for descending order.  
+  Example: `/api/books/?ordering=-publication_year`
